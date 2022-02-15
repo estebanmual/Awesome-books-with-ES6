@@ -3,7 +3,7 @@ function Book(title, author) {
   this.author = author;
 }
 
-function getBooks() {
+const getBooks = () => {
   let books;
   if (localStorage.getItem('books') === null) {
     books = [];
@@ -11,15 +11,15 @@ function getBooks() {
     books = JSON.parse(localStorage.getItem('books'));
   }
   return books;
-}
+};
 
-function addBook(book) {
+const addBook = (book) => {
   const books = getBooks();
   books.push(book);
   localStorage.setItem('books', JSON.stringify(books));
-}
+};
 
-function removeBook(author) {
+const removeBook = (author) => {
   const books = getBooks();
 
   books.forEach((book, index) => {
@@ -29,7 +29,7 @@ function removeBook(author) {
   });
 
   localStorage.setItem('books', JSON.stringify(books));
-}
+};
 
 class UI {
   static displayBooks() {
