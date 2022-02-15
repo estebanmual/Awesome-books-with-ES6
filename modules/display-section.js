@@ -128,7 +128,6 @@ export default function displaySection() {
             UI.addBookToList(getBooks()[i]);
           }
           document.querySelector('#book-list').addEventListener('click', (e) => {
-            console.log(e.target);
             UI.deleteBook(e.target);
             removeBook(e.target.parentElement.previousElementSibling.textContent);
           });
