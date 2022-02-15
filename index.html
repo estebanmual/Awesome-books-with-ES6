@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
+    <script src="index.js" type="module"></script>
     <title>Awesome books</title>
   </head>
   <body>
@@ -13,42 +13,12 @@
       <header>
         <p class="header-title">Awesome Books</p>
         <nav>
-          <a href="#" class="nav-link">List</a>
-          <a href="#" class="nav-link">Add</a>
-          <a href="#" class="nav-link">Contact</a>
+          <a href="#" class="nav-link" id="list-link">List</a>
+          <a href="#" class="nav-link" id="add-link">Add</a>
+          <a href="#" class="nav-link" id="contact-link">Contact</a>
         </nav>
       </header>
-      <section class="books-list-section">
-        <h1>Awesome Books</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Author</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </section>
-      <section class="add-book-section">
-        <h1>Add new book</h1>
-        <input type="text" name="title" placeholder="Title" /> <br>
-        <input type="text" name="author" placeholder="Author" /> <br>
-        <button type="button">Add</button> <br>
-      </section>
-      <section class="contact-section">
-        <h1>Contact Information</h1>
-        <p>
-          Do have any question or you just want to say "hello"
-          You can Reach out to us!
-        </p>
-        <p>Our E-mail: books@awesome.com</p>
-        <br />
-        <p>Our Phone Number: 003311223344</p>
-        <br />
-        <p>Our Adress: John Doe street, 22, 883322 Vikings, Valhala</p>
-      </section>
+      <div class="section-container"></div>
       <footer><p class="footer-text">Copyright: All rights reserved</p></footer>
     </main>
   </body>
