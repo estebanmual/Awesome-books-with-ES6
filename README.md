@@ -1,56 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome books with ES6
 
-> Description the project.
+> This is a webpage in which you can store all the books that you want to read or ypu have read! 
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+[Live Demo Link](https://estebanmual.github.io/Awesome-books-with-ES6/) (Working when merge with main)
 
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **Edgar Esteban Muñoz Alba**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Estebanmual](https://github.com/Estebanmual)
+- Twitter: [@esteban_mual](https://twitter.com/esteban_mual)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/esteban_mual)
 
 ## 🤝 Contributing
 
