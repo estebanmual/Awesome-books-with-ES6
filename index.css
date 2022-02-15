@@ -56,6 +56,7 @@ header {
 h1 {
   font-size: 2.5rem;
   color: #1e1e1e;
+  margin-bottom: 15px;
 }
 
 .footer-text {
@@ -65,10 +66,39 @@ h1 {
   padding: 5px 5px;
 }
 
-.books-list-section,
-.add-book-section,
-.contact-section {
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+table {
+  width: 70%;
+  overflow-y: auto;
+  table-layout: fixed;
+  border: 2px solid #1e1e1e;
+  border-collapse: collapse;
+}
+
+tr {
+  text-align: center;
+  border: 2px solid #1e1e1e;
+}
+
+th {
+  color: white;
+  font-size: 1.7rem;
+  padding: 3px;
+}
+
+td {
+  font-size: 1.5rem;
+  padding: 2px;
+}
+
+.time {
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  color: white;
 }

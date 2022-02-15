@@ -30,6 +30,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
+    "luxon": "^2.3.0",
     "three": "^0.137.5"
   }
 }
