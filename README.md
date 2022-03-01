@@ -20,9 +20,9 @@
 
 👤 **Edgar Esteban Muñoz Alba**
 
-- GitHub: [@Estebanmual](https://github.com/Estebanmual)
-- Twitter: [@esteban_mual](https://twitter.com/esteban_mual)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/esteban_mual)
+- GitHub: [@estebanmual](https://github.com/estebanmual)
+- Twitter: [@estebanmual](https://twitter.com/estebanmual)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/estebanmual)
 
 ## 🤝 Contributing
 
